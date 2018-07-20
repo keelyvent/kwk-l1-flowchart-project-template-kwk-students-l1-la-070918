@@ -8,7 +8,6 @@ def res(one, two, three, four, five)
   if one == "true" 
    ok += 1
   else one == "false"
-   ok += 1
   bipolar += 1 
   depression += 1
   anxiety += 1
@@ -18,25 +17,36 @@ def res(one, two, three, four, five)
     bipolar += 1
     anxiety +=1
   else two == "false"
-    ok += 1 
+  ok += 1
+  depression += 1
+  eating_dis += 1
   end
   if three == "true"
     anxiety += 1 
   else three == "false"
-    ok += 1
+  ok += 1
+  bipolar += 1 
+  depression += 1
+  eating_dis += 1
   end
   if four == "true"
     eating_dis += 1
     depression +=1
   else four == "false"
-    ok +=1
+    ok += 1
+    bipolar += 1 
+    anxiety += 1
+  
   end
   if five == "true"
     depression += 1
     anxiety +=1 
     eating_dis +=1
   else five == "false"
-    ok += 1
+  ok += 1
+  depression += 1
+  anxiety += 1
+  eating_dis += 1
   end
 
 result = ""

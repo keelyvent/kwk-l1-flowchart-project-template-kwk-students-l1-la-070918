@@ -11,8 +11,8 @@ configure do
   # Add your post route and action below
 post '/' do 
   #the first part we can make up = the second part is already assigned names in index 
-  @the_result =params[:user_result]
-  @
+  @the_result =res(params[:])
+  
   
   return erb :results
 end

@@ -13,6 +13,7 @@ post '/' do
   #the first part we can make up = the second part is already assigned names in index 
   @the_result =params[:user_result]
   
+  
   return erb :results
 end
  

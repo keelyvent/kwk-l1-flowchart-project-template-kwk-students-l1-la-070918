@@ -8,6 +8,11 @@ configure do
   get '/' do
     erb :index
   end
+  
+  get '/index' do 
+    erb :index
+  end 
+  
   # Add your post route and action below
 post '/' do 
   #the first part we can make up = the second part is already assigned names in index 

@@ -64,7 +64,7 @@ result_array = [ok, bipolar, depression, anxiety,eating_dis]
   elsif result_array.max == anxiety
     result = "Life can get pretty stressful, it's ok to worry sometimes, but dont let it control you! Next time you feel anxious, slowly count to 10 and practice taking deep breaths. Following a regular schedule may also help you relieve some worry!"
     #puts "stressed"
-  else result_array.max = ok
+  else 
     result = "Keep doing what you are doing! You are healthy and happy!"
   end
 return result

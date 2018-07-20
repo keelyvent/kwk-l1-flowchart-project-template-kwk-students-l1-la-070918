@@ -8,10 +8,10 @@ def res(one, two, three, four, five)
   if one == "true" 
    ok += 1
   else one == "false"
-  bipolar += 1 
-  depression += 1
-  anxiety += 1
-  eating_dis += 1
+  bipolar += 0 
+  depression += 0
+  anxiety += 0
+  eating_dis += 0
   end
   if two == "true"
     bipolar += 1

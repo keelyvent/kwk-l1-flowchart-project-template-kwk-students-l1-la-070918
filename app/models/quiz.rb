@@ -8,7 +8,7 @@ def res(one, two, three, four, five)
   if one == "true" 
    ok += 1
   else one == "false"
-   decide += 1
+   ok += 1
   bipolar += 1 
   depression += 1
   anxiety += 1
